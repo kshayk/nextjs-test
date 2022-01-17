@@ -22,8 +22,6 @@ export default function AuthorsPage(props) {
             }
         });
 
-        const data = await response.json();
-
         router.push('/authors');
     }
 
